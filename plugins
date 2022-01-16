@@ -1,0 +1,49 @@
+
+call plug#begin('~/.vim/plugged')
+" Deshacer
+
+Plug 'simnalamburt/vim-mundo'
+
+" Temas
+Plug 'morhetz/gruvbox'
+" IDE
+Plug 'easymotion/vim-easymotion'
+Plug 'scrooloose/nerdtree'
+Plug 'christoomey/vim-tmux-navigator'
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'pangloss/vim-javascript'    " JavaScript support
+Plug 'leafgarland/typescript-vim' " TypeScript syntax
+
+"NO tengo idea
+Plug 'vim-airline/vim-airline'
+
+"Resaltado de sintaxis
+Plug 'sheerun/vim-polyglot'
+
+"Arbol para nevegar entre archivos
+Plug 'scrooloose/nerdtree'
+
+"Complete pairs 
+Plug 'jiangmiao/auto-pairs'
+
+"complete etiquetas html
+Plug 'alvan/vim-closetag'
+
+"encerrar en caracter
+Plug 'tpope/vim-surround'
+
+"nevegar entre paginas
+Plug 'preservim/vimux'
+Plug 'christoomey/vim-tmux-navigator'
+
+"complete  Track the engine.
+Plug 'SirVer/ultisnips'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+"Identacion 
+Plug 'Yggdroot/indentLine'
+
+call plug#end()
+
