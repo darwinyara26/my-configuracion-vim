@@ -1,0 +1,34 @@
+source ~/.vim/configs/maps.vim
+source ~/.vim/configs/plugins.vim
+source ~/.vim/configs/additional-configuration.vim
+
+set number relativenumber 
+set hidden
+set nobackup 
+set ruler  
+set nocompatible 
+set tabstop=4
+set sw=4
+set expandtab
+set vb 
+set noerrorbells 
+set nolist
+set mouse=a
+set numberwidth=2
+set clipboard=unnamedplus
+syntax enable 
+set showcmd
+set encoding=utf-8
+set showmatch 
+set nrformats+=alpha
+set nowrap
+
+
+"Colorscheme 
+
+colorscheme onedark 
+
+let g:gruvbox_contrast_dark = "hard"
+let NERDTreeQuitOnOpen=1
+
+
